@@ -33,6 +33,8 @@ match opcion:
     case 10:
         resultado = cantidad / 0.046
         moneda = "ARS"
-    case resultado:
-        print (opcion)
-        opcion = None
+    case _:
+        resultado = None
+        print("opcion no valida")
+if resultado is not None:
+    print("el equvalente es:" , resultado , moneda)

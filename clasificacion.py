@@ -6,7 +6,7 @@ elif nota >= 80:
     letra = "B"
 elif nota >= 70:
     letra = "C"
-if nota >= 60:
+elif nota >= 60:
     letra = "D"
 else:
     letra = "F"
