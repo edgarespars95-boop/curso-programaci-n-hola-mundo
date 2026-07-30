@@ -13,4 +13,3 @@ if contador > 0:
     print("media:", media)
 else:
     print("Nose ingresaron positivos")
-    
