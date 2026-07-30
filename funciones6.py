@@ -10,7 +10,7 @@ def raiz_newton(n, tolerancia=1e-10):
         estimacion = nueva
 
 try:
-    num= float(input("NUmero: "))
+    num= float(input("Numero: "))
     r1 = math.sqrt(num)
     r2 = raiz_newton(num)
     print(f"math.sqrt: {r1}, Newton: {r2:.10f}")
